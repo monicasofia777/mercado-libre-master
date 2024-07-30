@@ -1,0 +1,726 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+body{
+    background-color: rgba(228, 227, 227, 0.897);
+}
+.contenedorm{
+    background-color: #fff159;
+    width: 100%; 
+    height: 50px;
+}
+.submenu{
+    background-color:#fff159;
+    width: 100%; 
+    height: 50px;
+    box-shadow: 0 9px 9px 0 rgba(0,0,0,.1); 
+}
+.menu{
+   float: left;
+}
+#logo{
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+#Ienvios{
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+#Iubicacion{
+    margin-left: 80px;
+    margin-top: 5px;
+    height: 40px;
+    cursor: pointer;
+}
+.m>li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+}
+.n>li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.m>li>a{
+    color: #736c28;
+}
+.n>li>a{
+    color:rgb(49, 47, 47);
+}
+#menu2{
+    float:right;
+    margin-top: 10px;
+    margin-right: 80px;
+
+}
+#menu1{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.contenedortexto{
+    float: left;
+}
+.m>li>a:hover {
+    color: rgb(27, 27, 27);
+    transition: all .3s;
+}
+.n>li>a:hover {
+    color: black;
+    transition: all .3s;
+}
+#buscador{
+    float: right;
+    margin-right: 180px;
+    margin-top: 10px;
+    background-color: white; 
+   box-shadow: 0 4px 9px 0 rgba(0,0,0,.1); 
+}
+#sear{
+    padding: 12px;
+    border: none;
+    
+}
+
+.sea{
+    margin-right: 15px;
+}
+
+.sublista {
+    width: 300px;
+    position: absolute;
+    display: none;
+    background-color: rgb(54, 51, 51);
+    z-index: 999;
+}
+.sublista >li{
+    list-style: none;
+}
+.sublista >li >a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.m >li:hover .sublista{
+    display: block;
+}
+.sublista >li :hover {
+    background-color: rgb(36, 57, 243);
+
+}
+.sublista >li >.pri{
+    margin-top: 24px;
+}
+.sublista>li>a>.fas{
+    float: right;
+    margin-right: 15px;
+}
+.slides>li>img{
+    width: 100%;
+    height: 340px;
+}
+
+
+
+.flexslider{
+    width: 100%;
+    position: relative;
+}
+.slides{
+    overflow: hidden;
+}
+.slides, 
+.flex-control-nav,
+.flex-direction-nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex-control-nav{
+    width: 100%;
+    text-align: center;
+}
+.flex-control-nav li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.flex-control-nav li a{
+    display: block;
+    border-radius: 10px;
+    background: rgb(149, 150, 149);
+    width: 6px;
+    height:6px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 88%;
+    z-index: 999;
+}
+.flex-control-nav li a.flex-active{
+    margin: 0px  0px;
+    background: white;
+    width: 12px;
+    height: 12px;
+}
+.flex-direction-nav a{
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    width: 40px;
+    height: 90px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+.flex-direction-nav .flex-prev{
+ left: 0;
+}
+.flex-direction-nav .flex-next{
+ right: 0;
+}
+.flex-direction-nav a.flex-prev:hover{
+    content: url(logo/anterios.PNG);
+}
+.flex-direction-nav a.flex-next:hover{
+    content: url(logo/next.PNG);
+}
+
+
+
+
+
+
+.contenedormm .rec {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 86%;
+    margin: 6px auto;
+    box-shadow: 0 9px 9px 0 rgba(0,0,0,.1);
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    border-radius: 10px;
+}
+.contenedormm .rec div{
+    border-radius: 10px;
+    height: 90px;
+}
+
+.contenedorp{
+    display: grid;
+    grid-template-columns: 48% 85%;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+
+.contenedorp>div>h3{
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    width: 140%;
+}
+
+.contenedorp>div>a{
+    font-size: 12px;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    color:  rgb(36, 57, 243);
+}
+
+/* Ofertas*/
+
+.tituloofertas{
+    margin-left: 90px; 
+    margin-top: 60px; 
+    height: 40px;
+    font-family: 'roboto';
+}
+
+.subtituloofertas{
+    font-size: 14px;
+    position: relative;
+    right: -350px;
+    margin-top: -30px; 
+    font-family: 'roboto';
+}
+
+
+#f{
+    display: block;
+    width: 184px; /* Ancho*/
+    height: 154px; /* Altura*/
+    border-radius: 7px; /* Redondear*/
+    position: relative;
+    right: 53px;
+}
+.pro{
+    
+    background-color: white;
+    box-shadow: 0 19px 19px 0 rgba(0,0,0,.1); /* Sombreado*/
+    display: block;
+    margin: 8px 2px 10px 30px;
+    border-radius: 7px;
+    padding: 25%;
+}
+.ofertas{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.precioofertas{
+    position: relative;
+    top: 18px;
+    right: 50px;
+    font-family: 'roboto';
+    font-size: 25px;
+
+    
+}
+.descuentoofertas{
+    position: relative;
+    right: -80px;
+    top: -5px;
+    font-family: 'Helvetica',Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #39b54a;
+}
+#cref{
+    margin-left: -60px;
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+
+}
+/* Descubre*/
+
+.titulodescubre{
+    margin-left: 90px; 
+    height: 40px;
+    font-family:'roboto';
+}
+
+#i{
+    display: block;
+    border-radius: 7px; /* Redondear*/
+    position: relative;
+    right: 43px;
+}
+.prodescubre>a{
+    cursor: pointer;
+    z-index: 999;
+    top: 235%;
+    display: block;
+    position: absolute;
+}
+.descubre{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 55% 55%;
+}
+
+/* TIENDAS*/
+
+.titulotiendas{
+    margin-left: 90px; 
+    margin-top: 60px; 
+    height: 40px;
+    font-family: 'roboto';
+}
+
+.subtitulotiendas{
+    font-size: 14px;
+    position: relative;
+    right: -480px;
+    margin-top: -30px; 
+    font-family: 'roboto';
+}
+
+#a{
+    width: 100%; /* Ancho*/
+    border-radius: 7px; /* Redondear*/
+    position: relative;
+    
+    
+}
+.protiendas{
+    
+    background-color: white;
+    box-shadow: 0 19px 19px 0 rgba(0,0,0,.1); /* Sombreado*/
+    display: block;
+    margin: 8px 2px 10px 30px;
+    border-radius: 7px;
+   
+}
+.tiendas{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+}
+
+#cref2{
+    margin-left: -70px;
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+#ultraf{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* INTERES*/
+
+.titulointeres{
+    margin-left: 90px; 
+    margin-top: 60px; 
+    height: 40px;
+    font-family: 'roboto';
+}
+
+.subtitulointeres{
+    font-size: 14px;
+    position: relative;
+    right: -430px;
+    margin-top: -30px; 
+    font-family: 'roboto';
+}
+
+#t{
+    display: block;
+    width: 184px; /* Ancho*/
+    height: 154px; /* Altura*/
+    border-radius: 7px; /* Redondear*/
+    position: relative;
+    right: 53px;
+}
+.prointeres{
+    
+    background-color: white;
+    box-shadow: 0 19px 19px 0 rgba(0,0,0,.1); /* Sombreado*/
+    display: block;
+    margin: 8px 2px 10px 30px;
+    border-radius: 7px;
+    padding: 25%;
+}
+.interes{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.preciointeres{
+    position: relative;
+    top: 18px;
+    right: 50px;
+    font-family: 'roboto';
+    font-size: 25px;
+
+    
+}
+.descuentointeres{
+    position: relative;
+    right: -80px;
+    top: -5px;
+    font-family: 'Helvetica',Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #39b54a;
+}
+#cref3{
+    margin-left: -60px;
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+
+.preciointeres{
+    position: relative;
+    top: 18px;
+    right: 50px;
+    font-family: 'roboto';
+    font-size: 25px;
+
+    
+}
+.descuentointeres{
+    position: relative;
+    right: -80px;
+    top: -5px;
+    font-family: 'Helvetica',Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #39b54a;
+}
+#cref3{
+    margin-left: -60px;
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+/* Roberth */
+.coleccion{
+    width: 95%;
+    margin: 40px auto;
+}
+.titulocoleccion > a{
+    width: 50%;
+    font-size: 20px;
+    position: relative;
+    right: -120px;
+    margin-top: -25px; 
+    font-family: 'roboto';
+    float: left;
+
+}
+.Grancontenedor{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.contenedorSustentables{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 19px 19px 0 rgba(0,0,0,.1); /* Sombreado*/
+    align-items: center;
+    height: 92%;
+    margin-top: 20px;
+}
+.contenedorSustentables div h2{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.contenedorSustentables div h5{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#pasto{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.Todasimagenes{
+    margin: 0px  auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px;
+}
+.Todasimagenes div{
+    margin: 0 auto;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.Todasimagenes div img{
+    border-radius: 5px;
+}
+.contenedorimagenes:hover{
+    box-shadow: 0 20px 20px 0 rgba(58, 56, 56, 0.336); /* Sombreado*/
+}
+.TituloPopulares{
+   width: 95%;
+    margin: 0 auto;
+}
+.cambiodeimagenes1{
+    width: 1px;
+    padding: 95px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/carrosBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes1:hover{
+    background-image: url(Imagenes-populares/carrosAzul.png);
+    background-repeat: no-repeat;
+}
+.Contenedorcategoriaspopulares{
+    width: 95%;
+    margin: 50px auto;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+}
+.cambiodeimagenes2{
+    width: 1px;
+    padding: 95px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/pcBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes2:hover{
+    background-image: url(Imagenes-populares/pcAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes3{
+    width: 1px;
+    padding: 95px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/ropaBlanca.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes3:hover{
+    background-image: url(Imagenes-populares/ropaAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes4{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/mueblesBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes4:hover{
+    background-image: url(Imagenes-populares/mueblesAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes5{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/vehiculosBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes5:hover{
+    background-image: url(Imagenes-populares/vehiculosAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes6{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/electrodomesticosBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes6:hover{
+    background-image: url(Imagenes-populares/electrodomesticosAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes7{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/camarasBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes7:hover{
+    background-image: url(Imagenes-populares/camarasAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes8{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/celularesBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes8:hover{
+    background-image: url(Imagenes-populares/celularesAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes9{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/bellezaBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes9:hover{
+    background-image: url(Imagenes-populares/bellezaAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes10{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/deportesBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes10:hover{
+    background-image: url(Imagenes-populares/deportesAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes11{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/electronicaBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes11:hover{
+    background-image: url(Imagenes-populares/electronicaAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes12{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/juegosBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes12:hover{
+    background-image: url(Imagenes-populares/juegosAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes13{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/juguetesBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes13:hover{
+    background-image: url(Imagenes-populares/juguetesAzul.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes14{
+    width: 1px;
+    padding: 91px;
+    background-size: 189px 189px;
+    background-image: url(Imagenes-populares/herramientasBlanco.png);
+    background-repeat: no-repeat;
+}
+.cambiodeimagenes14:hover{
+    background-image: url(Imagenes-populares/herramientasAzul.png);
+    background-repeat: no-repeat;
+}
+.condicionesyservicios{
+    background-color: rgb(253, 253, 253);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 90%;
+    margin: 80px auto;
+}
+.tarjetadecredito{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    
+}
+.enviogratis{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+.seguridad{
+    width: 104%;
+    height: 250px;
+    margin: 0 auto;
+}
+#ff{
+    background-color: rgb(255, 255, 255);
+}
